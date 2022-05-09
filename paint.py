@@ -1,12 +1,7 @@
-"""Paint, for drawing shapes.
-
-Exercises
-
-1. Add a color.
-2. Complete circle.
-3. Complete rectangle.
-4. Complete triangle.
-5. Add width parameter.
+"""
+Juego: Paint
+Programador 1: Isabel Cristina Valdes Luevanos
+Programador 2: Victor Hugo Portilla Ortiz
 """
 
 from turtle import *
