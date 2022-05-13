@@ -19,11 +19,12 @@ def line(start, end):
 
 def square(start, end):
     """Draw square from start to end."""
+    """The height of the circle (vertically) must be selected."""
     up()
     goto(start.x, start.y)
     down()
     begin_fill()
-
+    
     for count in range(4):
         forward(end.x - start.x)
         left(90)
@@ -32,6 +33,7 @@ def square(start, end):
 
 
 def circle(start, end):
+    """Draw circle from start to end"""
     up()
     goto(start.x, start.y)
     down()
@@ -44,6 +46,7 @@ def circle(start, end):
 
 
 def rectangle(start, end):
+    """Draw rectangle from start to end"""
     up()
     goto(start.x, start.y)
     down()
